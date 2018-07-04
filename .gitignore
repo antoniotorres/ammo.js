@@ -1,3 +1,13 @@
 bullet/build
 *.diff
 
+# Bullet files that are not included.
+bullet/**/Makefile.in
+bullet/missing
+bullet/*.cache
+bullet/ltmain.sh
+bullet/depcomp
+bullet/configure
+bullet/config.*
+bullet/compile
+bullet/aclocal.m4
